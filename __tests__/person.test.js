@@ -54,4 +54,9 @@ describe('Person', () => {
     const person = new Person(86, 80);
     expect(person.remainingVenusYears()).toEqual("9.7");
   });
+
+  test('It should calculate the number of years the person has lived past their life expectancy on Mars', () =>{ 
+    const person = new Person(88, 80);
+    expect(person.remainingMarsYears()).toEqual("4.3");
+  });
 });
