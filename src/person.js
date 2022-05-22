@@ -18,4 +18,9 @@ export default class Person {
     const marsAge = this.age/1.88;
     return marsAge.toFixed(1); 
   }
+
+  jupiterAge() {
+    const jupiterAge = this.age/11.86;
+    return jupiterAge.toFixed(1);
+  }
 }

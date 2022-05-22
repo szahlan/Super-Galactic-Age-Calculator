@@ -24,4 +24,8 @@ describe('Person', () => {
   test('create a function that calculates the persons age in Mars years', () =>{ 
     expect(reusablePerson.marsAge()).toEqual("21.3");
   });
+
+  test('create a function that calculates the persons age in Jupiter years', () =>{ 
+    expect(reusablePerson.jupiterAge()).toEqual("3.4");
+  });
 });
