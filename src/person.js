@@ -10,6 +10,7 @@ export default class Person {
   }
 
   venusAge() {
-    
+    const venusAge = this.age/.62;
+    return venusAge.toFixed(1);  
   }
 }
