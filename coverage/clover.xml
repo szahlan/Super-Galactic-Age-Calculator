@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653226147705" clover="3.2.0">
-  <project timestamp="1653226147705" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="25" coveredelements="25" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+<coverage generated="1653226314906" clover="3.2.0">
+  <project timestamp="1653226314906" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="27" coveredelements="27" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="person.js" path="/Users/sanazahlan/Desktop/Epicodus/Super-Galactic-Age-Calculator/src/person.js">
-      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
       <line num="3" count="9" type="stmt"/>
       <line num="4" count="9" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
@@ -20,6 +20,8 @@
       <line num="34" count="1" type="stmt"/>
       <line num="38" count="1" type="stmt"/>
       <line num="39" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

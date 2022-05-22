@@ -40,7 +40,8 @@ export default class Person {
   }
 
   remainingJupiterYears() {
-    
+    const remainingJupiterYears = (this.avgLifeExpectancy - this.age)/11.86;
+    return remainingJupiterYears.toFixed(1); 
   }
 }
 
