@@ -49,4 +49,9 @@ describe('Person', () => {
     const person = new Person(84, 80);
     expect(person.remainingMercuryYears()).toEqual("16.7");
   });
+
+  test('It should calculate the number of years the person has lived past their life expectancy on Venus', () =>{ 
+    const person = new Person(86, 80);
+    expect(person.remainingVenusYears()).toEqual("9.7");
+  });
 });

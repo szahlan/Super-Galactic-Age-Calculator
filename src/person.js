@@ -25,7 +25,12 @@ export default class Person {
   }
 
   remainingMercuryYears() {
-    const remainingMercuryYears = (this.avgLifeExpectancy - this.age)/0.24;
+    let remainingMercuryYears;
+    if (this.age > this.avgLifeExpectancy) {
+      remainingMercuryYears = (this.age - this.avgLifeExpectancy)/0.24;
+    } else {
+      remainingMercuryYears = (this.avgLifeExpectancy - this.age)/0.24;
+    }
     return remainingMercuryYears.toFixed(1);
   }
 
