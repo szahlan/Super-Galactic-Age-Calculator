@@ -35,7 +35,12 @@ export default class Person {
   }
 
   remainingVenusYears() {
-    const remainingVenusYears = (this.avgLifeExpectancy - this.age)/0.62;
+    let remainingVenusYears;
+    if (this.age > this.avgLifeExpectancy) {
+      remainingVenusYears = (this.age - this.avgLifeExpectancy)/0.62;
+    } else {
+      remainingVenusYears = (this.avgLifeExpectancy - this.age)/0.62;
+    }
     return remainingVenusYears.toFixed(1);
   }
 
