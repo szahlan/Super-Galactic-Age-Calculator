@@ -20,4 +20,8 @@ describe('Person', () => {
   test('create a function that calculates the persons age in Venus years', () =>{ 
     expect(reusablePerson.venusAge()).toEqual("64.5");
   });
+
+  test('create a function that calculates the persons age in Mars years', () =>{ 
+    expect(reusablePerson.marsAge()).toEqual("21.3");
+  });
 });
