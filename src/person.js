@@ -55,8 +55,13 @@ export default class Person {
   }
 
   remainingJupiterYears() {
-    const remainingJupiterYears = (this.avgLifeExpectancy - this.age)/11.86;
-    return remainingJupiterYears.toFixed(1); 
+    let remainingJupiterYears;
+    if (this.age > this.avgLifeExpectancy) {
+      remainingJupiterYears = (this.age - this.avgLifeExpectancy)/11.86;
+    } else {
+      remainingJupiterYears = (this.avgLifeExpectancy - this.age)/11.86;
+    }
+    return remainingJupiterYears.toFixed(1);
   }
 }
 
