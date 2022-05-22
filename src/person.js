@@ -5,12 +5,12 @@ export default class Person {
   }
 
   mercuryAge() {
-    const mercuryAge = this.age/.24;
+    const mercuryAge = this.age/0.24;
     return mercuryAge.toFixed(1);
   }
 
   venusAge() {
-    const venusAge = this.age/.62;
+    const venusAge = this.age/0.62;
     return venusAge.toFixed(1);  
   }
 
@@ -25,7 +25,8 @@ export default class Person {
   }
 
   remainingMercuryYears() {
-    
+    const remainingMercuryYears = (this.avgLifeExpectancy - this.age)/0.24;
+    return remainingMercuryYears.toFixed(1);
   }
 }
 
