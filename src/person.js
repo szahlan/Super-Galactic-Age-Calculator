@@ -8,4 +8,8 @@ export default class Person {
     const mercuryAge = this.age/.24;
     return mercuryAge.toFixed(1);
   }
+
+  venusAge() {
+    
+  }
 }
