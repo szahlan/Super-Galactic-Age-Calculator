@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653226009014" clover="3.2.0">
-  <project timestamp="1653226009014" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="24" coveredelements="24" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+<coverage generated="1653226147705" clover="3.2.0">
+  <project timestamp="1653226147705" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="25" coveredelements="25" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="person.js" path="/Users/sanazahlan/Desktop/Epicodus/Super-Galactic-Age-Calculator/src/person.js">
-      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-      <line num="3" count="8" type="stmt"/>
-      <line num="4" count="8" type="stmt"/>
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <line num="3" count="9" type="stmt"/>
+      <line num="4" count="9" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>

@@ -40,4 +40,8 @@ describe('Person', () => {
   test('It should calculate the number of years the person has left on Mars', () =>{ 
     expect(reusablePerson.remainingMarsYears()).toEqual("21.3");
   });
+
+  test('It should calculate the number of years the person has left on Jupiter', () =>{ 
+    expect(reusablePerson.remainingJupiterYears()).toEqual("3.4");
+  });
 });
