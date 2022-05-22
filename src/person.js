@@ -28,5 +28,9 @@ export default class Person {
     const remainingMercuryYears = (this.avgLifeExpectancy - this.age)/0.24;
     return remainingMercuryYears.toFixed(1);
   }
+
+  remainingVenusYears() {
+    
+  }
 }
 
