@@ -23,4 +23,9 @@ export default class Person {
     const jupiterAge = this.age/11.86;
     return jupiterAge.toFixed(1);
   }
+
+  remainingMercuryYears() {
+    
+  }
 }
+
