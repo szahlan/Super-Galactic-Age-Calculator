@@ -14,6 +14,6 @@ describe('Person', () => {
   });
 
   test('create a function that calculates the persons age in Mercury years', () =>{ 
-    expect(reusablePerson.mercuryAge).toEqual(166.7);
+    expect(reusablePerson.mercuryAge()).toEqual("166.7");
   });
 });
