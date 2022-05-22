@@ -15,6 +15,7 @@ export default class Person {
   }
 
   marsAge() {
-    
+    const marsAge = this.age/1.88;
+    return marsAge.toFixed(1); 
   }
 }
