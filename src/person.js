@@ -35,7 +35,8 @@ export default class Person {
   }
 
   remainingMarsYears() {
-    
+    const remainingMarsYears = (this.avgLifeExpectancy - this.age)/1.88;
+    return remainingMarsYears.toFixed(1);  
   }
 }
 
