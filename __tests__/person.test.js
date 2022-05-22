@@ -44,4 +44,9 @@ describe('Person', () => {
   test('It should calculate the number of years the person has left on Jupiter', () =>{ 
     expect(reusablePerson.remainingJupiterYears()).toEqual("3.4");
   });
+
+  test('It should calculate the number of years the person has lived past their life expectancy on Mercury', () =>{ 
+    const person = new Person(84, 80);
+    expect(person.remainingMercuryYears()).toEqual("16.7");
+  });
 });
