@@ -59,4 +59,9 @@ describe('Person', () => {
     const person = new Person(88, 80);
     expect(person.remainingMarsYears()).toEqual("4.3");
   });
+
+  test('It should calculate the number of years the person has lived past their life expectancy on Jupiter', () =>{ 
+    const person = new Person(90, 80);
+    expect(person.remainingJupiterYears()).toEqual("0.8");
+  });
 });
