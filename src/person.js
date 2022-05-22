@@ -3,4 +3,8 @@ export default class Person {
     this.age = age;
     this.avgLifeExpectancy = avgLifeExpectancy;
   }
+
+  mercuryAge() {
+    
+  }
 }
